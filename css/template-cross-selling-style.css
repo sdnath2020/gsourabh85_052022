@@ -1,0 +1,105 @@
+@charset "utf-8";
+
+/* 
+** Cross Selling Style Start
+*/
+#dev2020_custom_template__cross-selling .dev2020_custom_template__cross-selling {
+  display: flex;
+  padding: 5px;
+  flex-wrap: wrap;
+  border: 1px solid lightgrey;
+}
+
+#dev2020_custom_template__cross-selling .dev2020_custom_template__cross-selling-single {
+  display: block;
+  padding: 5px;
+  flex: 0 0 100%;
+}
+
+#dev2020_custom_template__cross-selling .dev2020_custom_template__cross-selling-single a {
+  display: block;
+  padding: 5px;
+  text-decoration: none;
+  border: 1px solid lightgrey;
+}
+
+#dev2020_custom_template__cross-selling .dev2020_custom_template__cross-selling-image {
+  display: block;
+  padding-top: 100%;
+  margin-bottom: 5px;
+  background-size: cover;
+  background-position: center;
+}
+
+#dev2020_custom_template__cross-selling .dev2020_custom_template__cross-selling-title {
+  height: 50px;
+  padding: 5px 0;
+  overflow: hidden;
+}
+
+#dev2020_custom_template__cross-selling .dev2020_custom_template__cross-selling-title p {
+  color: #333333;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  line-height: 20px;
+  font-weight: 600;
+  margin: 0;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+#dev2020_custom_template__cross-selling .dev2020_custom_template__cross-selling-info {
+  display: block;
+  padding: 5px 0;
+  text-align: center;
+}
+
+#dev2020_custom_template__cross-selling .dev2020_custom_template__cross-selling-info span {
+  color: white;
+  display: inline-block;
+  background-color: black;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 20px;
+  padding: 5px 15px;
+  text-transform: uppercase;
+  transition: all 0.3s ease-out;
+}
+
+#dev2020_custom_template__cross-selling .dev2020_custom_template__cross-selling-single a:hover .dev2020_custom_template__cross-selling-info span {
+  background-color: #8EC738;
+}
+
+@media screen and ( min-width:1200px) {
+  #dev2020_custom_template__cross-selling .dev2020_custom_template__cross-selling-single:nth-child( n + 7 ) {
+    display: none !important;
+  }
+}
+
+@media screen and ( max-width:1199px) {
+  #dev2020_custom_template__cross-selling .dev2020_custom_template__cross-selling-single {
+    flex: 0 0 25%;
+  }
+}
+
+@media screen and ( max-width:768px) {
+  #dev2020_custom_template__cross-selling .dev2020_custom_template__cross-selling-single {
+    flex: 0 0 33.333333%;
+  }
+}
+
+@media screen and ( max-width:575px) {
+  #dev2020_custom_template__cross-selling .dev2020_custom_template__cross-selling-single {
+    flex: 0 0 50%;
+  }
+}
+
+@media screen and ( max-width:375px) {
+  #dev2020_custom_template__cross-selling .dev2020_custom_template__cross-selling-single {
+    flex: 0 0 100%;
+  }
+}
+/* 
+** Cross Selling Style End
+*/

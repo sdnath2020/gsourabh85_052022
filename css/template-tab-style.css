@@ -1,0 +1,92 @@
+@charset "utf-8";
+
+/*
+** Tab Section Style Start
+*/
+#dev2020_custom_template__tab-wrapper .dev2020_custom_template__tab-controller {
+  display: flex;
+  flex-wrap: wrap;
+  background-image: url('../images/heading-bg.gif');
+}
+
+#dev2020_custom_template__tab-wrapper .dev2020_custom_template__tab-controller label {
+  color: white;
+  cursor: pointer;
+  flex: 1;
+  font-weight: bold;
+  line-height: 20px;
+  margin: 0;
+  padding: 10px 15px;
+  overflow: hidden;
+  text-align: center;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+#dev2020_custom_template__tab-about:checked~.dev2020_custom_template__tab-controller label[for=dev2020_custom_template__tab-about],
+#dev2020_custom_template__tab-payment:checked~.dev2020_custom_template__tab-controller label[for=dev2020_custom_template__tab-payment],
+#dev2020_custom_template__tab-shipping:checked~.dev2020_custom_template__tab-controller label[for=dev2020_custom_template__tab-shipping],
+#dev2020_custom_template__tab-returns:checked~.dev2020_custom_template__tab-controller label[for=dev2020_custom_template__tab-returns],
+#dev2020_custom_template__tab-warning:checked~.dev2020_custom_template__tab-controller label[for=dev2020_custom_template__tab-warning] {
+  background-color: #8EC738;
+  background-image: none;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+}
+
+#dev2020_custom_template__tab-wrapper .dev2020_custom_template__tab-content {
+  display: none;
+  font-size: 14px;
+  line-height: 1.75;
+  padding: 20px 15px;
+  border: 1px solid lightgrey;
+}
+
+#dev2020_custom_template__tab-wrapper .dev2020_custom_template__tab-content * {
+  color: #252525;
+}
+
+#dev2020_custom_template__tab-wrapper .dev2020_custom_template__tab-content *:first-child {
+  margin-top: 0;
+}
+
+#dev2020_custom_template__tab-wrapper .dev2020_custom_template__tab-content * {
+  margin-bottom: 0;
+}
+
+#dev2020_custom_template__tab-wrapper .dev2020_custom_template__tab-content ol {
+  list-style: decimal-leading-zero;
+}
+
+#dev2020_custom_template__tab-wrapper .dev2020_custom_template__tab-content dl,
+#dev2020_custom_template__tab-wrapper .dev2020_custom_template__tab-content ul {
+  list-style: '\2714\0020';
+}
+
+#dev2020_custom_template__tab-wrapper .dev2020_custom_template__tab-content dl,
+#dev2020_custom_template__tab-wrapper .dev2020_custom_template__tab-content ol,
+#dev2020_custom_template__tab-wrapper .dev2020_custom_template__tab-content ul {
+  padding-left: 20px;
+}
+
+#dev2020_custom_template__tab-wrapper .dev2020_custom_template__tab-content li {
+  padding-bottom: 10px;
+}
+
+#dev2020_custom_template__tab-about:checked~.dev2020_custom_template__tab-content-wrapper #dev2020_custom_template__tab-content-about,
+#dev2020_custom_template__tab-payment:checked~.dev2020_custom_template__tab-content-wrapper #dev2020_custom_template__tab-content-payment,
+#dev2020_custom_template__tab-shipping:checked~.dev2020_custom_template__tab-content-wrapper #dev2020_custom_template__tab-content-shipping,
+#dev2020_custom_template__tab-returns:checked~.dev2020_custom_template__tab-content-wrapper #dev2020_custom_template__tab-content-returns,
+#dev2020_custom_template__tab-warning:checked~.dev2020_custom_template__tab-content-wrapper #dev2020_custom_template__tab-content-warning {
+  display: block;
+}
+
+@media screen and ( max-width:575px) {
+  #dev2020_custom_template__tab-wrapper .dev2020_custom_template__tab-controller label {
+    flex: 0 0 100%;
+    background-color: black;
+    background-image: url('../images/heading-bg.gif');
+  }
+}
+/*
+** Tab Section Style End
+*/

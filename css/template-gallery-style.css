@@ -1,0 +1,84 @@
+@charset "utf-8";
+
+/*
+** Tab Section Style Start
+*/
+#dev2020_custom_template__template-gallery {
+  padding: 20px 0;
+}
+
+#dev2020_custom_template__template-gallery img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+#dev2020_custom_template__template-gallery .dev2020_custom_template__gallery-big-wrapper {
+  display: block;
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto 20px;
+}
+
+#dev2020_custom_template__template-gallery .dev2020_custom_template__gallery-big-wrapper-inner {
+  display: block;
+  width: 100%;
+  position: relative;
+  padding-top: 100%;
+}
+
+#dev2020_custom_template__template-gallery .dev2020_custom_template__gallery-big-single {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  opacity: 0;
+}
+
+#dev2020_custom_template__template-gallery .dev2020_custom_template__gallery-small-wrapper {
+  display: flex;
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+#dev2020_custom_template__template-gallery .dev2020_custom_template__gallery-small-single {
+  border: 1px solid lightgrey;
+  margin-right: 10px;
+  position: relative;
+  width: 20%;
+  padding-top: calc( 20% - 10px);
+}
+
+#dev2020_custom_template__template-gallery .dev2020_custom_template__gallery-small-single:last-child {
+  margin-right: 0;
+}
+
+#dev2020_custom_template__template-gallery .dev2020_custom_template__gallery-small-single label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 5px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#dev2020_custom_template__image-01:checked~.dev2020_custom_template__gallery-big-wrapper>.dev2020_custom_template__gallery-big-wrapper-inner>.dev2020_custom_template__gallery-big-single:nth-child(01),
+#dev2020_custom_template__image-02:checked~.dev2020_custom_template__gallery-big-wrapper>.dev2020_custom_template__gallery-big-wrapper-inner>.dev2020_custom_template__gallery-big-single:nth-child(02),
+#dev2020_custom_template__image-03:checked~.dev2020_custom_template__gallery-big-wrapper>.dev2020_custom_template__gallery-big-wrapper-inner>.dev2020_custom_template__gallery-big-single:nth-child(03),
+#dev2020_custom_template__image-04:checked~.dev2020_custom_template__gallery-big-wrapper>.dev2020_custom_template__gallery-big-wrapper-inner>.dev2020_custom_template__gallery-big-single:nth-child(04),
+#dev2020_custom_template__image-05:checked~.dev2020_custom_template__gallery-big-wrapper>.dev2020_custom_template__gallery-big-wrapper-inner>.dev2020_custom_template__gallery-big-single:nth-child(05) {
+  opacity: 1;
+}
+/*
+** Tab Section Style End
+*/
