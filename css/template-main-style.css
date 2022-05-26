@@ -687,3 +687,21 @@ img {
 /* 
 ** Footer Style End
 */
+
+#dev2020_custom_template__bestseller {
+color: white;
+background-color: #8EC738;
+display: inline-block;
+margin: 20px 0 0;
+padding: 8px 24px;
+font-size: 14px;
+font-weight: 600;
+line-height: 24px;
+letter-spacing: 1px;
+text-decoration: none;
+transition: all 0.3s ease-out;
+}
+#dev2020_custom_template__bestseller:hover {
+background-color: black;
+text-shadow: 1px 1px 1px rgb(0 0 0 / 30%);
+}
