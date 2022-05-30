@@ -472,6 +472,27 @@ img {
 }
 /* Store Newletter End */
 
+.dev2020_custom_template__bestsellers {
+  display: block;
+  background-color: #8EC738;
+  padding: 20px 15px;
+  text-decoration: none;
+}
+
+.dev2020_custom_template__bestsellers h4 {
+  background-image: url(../images/best-seller.png);
+  background-repeat: no-repeat;
+  background-position: left center;
+  color: black !important;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 20px;
+  min-height: 40px;
+  padding: 0 0 0 50px;
+  text-transform: uppercase;
+  margin: 0;
+}
+
 /* Expert Support Start */
 #dev2020_custom_template .dev2020_custom_template__expert-support {
   background: #F5F5F5;
