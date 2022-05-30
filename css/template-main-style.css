@@ -474,6 +474,7 @@ img {
 
 .dev2020_custom_template__bestsellers {
   display: block;
+  border: 1px solid black;
   background-color: #8EC738;
   padding: 20px 15px;
   text-decoration: none;
